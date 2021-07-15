@@ -1,12 +1,7 @@
 {
-  "name": "demo-compiler",
-  "version": "0.1.0",
-  "description": "A demo parser written in TS",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Ahacad/demo-compiler.git"
-  },
+  "name": "@ahacad/node-typescript-boilerplate",
+  "version": "0.1.1",
+  "description": "nodejs typescript boilerplate",
   "engines": {
     "node": ">= 14.16"
   },
@@ -40,15 +35,8 @@
     "test": "jest --coverage",
     "test:watch": "jest --watch"
   },
-  "keywords": [
-    "compiler"
-  ],
-  "author": "ahacad",
+  "author": "ahacad <ahacad@126.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Ahacad/demo-compiler/issues"
-  },
-  "homepage": "https://github.com/Ahacad/demo-compiler#readme",
   "dependencies": {
     "tslib": "~2.3.0"
   },
